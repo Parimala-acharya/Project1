@@ -30,6 +30,9 @@ public class datePicker {
 		//select month and year
 		while(true)
 		{
+			//String currentMonth= driver.findElement(By.xpath("//span[@class='ui-datepicker-month']")).getText();
+			//String currentYear= driver.findElement(By.xpath("//span[@class='ui-datepicker-year']")).getText();
+			
 			String currentMonth= driver.findElement(By.xpath("//span[@class='ui-datepicker-month']")).getText();
 			String currentYear= driver.findElement(By.xpath("//span[@class='ui-datepicker-year']")).getText();
 			
