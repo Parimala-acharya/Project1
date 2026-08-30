@@ -52,10 +52,10 @@ public class TableMinEnrollment {
         for (WebElement row : visibleRows) {
             // Get the course name (Column 2)
             String courseName = row.findElement(By.xpath("./td[2]")).getText();
-            
+
             // Get the enrollments text (Column 5)
             String enrollmentText = row.findElement(By.xpath("./td[5]")).getText();
-
+            System.out.println("Enrollment text for '" + courseName + "': " + enrollmentText);
             // Clean the text (remove commas if any) and convert to integer
             int enrollments = Integer.parseInt(enrollmentText.replace(",", "").trim());
 
