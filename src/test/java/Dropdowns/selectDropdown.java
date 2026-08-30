@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-import com.sun.tools.javac.util.List;
 
 public class selectDropdown {
 
@@ -43,13 +42,6 @@ public class selectDropdown {
 		}
 		
 		driver.quit();
-		
-		
-		
-		
-		
-		
-
 	}
 
 }
